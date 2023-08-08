@@ -191,6 +191,7 @@ footer{
         font-size: 40px;
     }
     .m-head{
+        margin-top: 100px;
         font-size: 28px;
     }
 }
@@ -212,6 +213,7 @@ footer{
         font-size: 45px;
     }
     .m-head{
+        margin-top: 100px;
         font-size: 30px;
     }
     .para{
@@ -238,6 +240,7 @@ footer{
         font-size: 45px;
     }
     .m-head{
+        margin-top: 100px;
         font-size: 30px;
     }
     .para{
@@ -257,4 +260,23 @@ footer{
     }
     
 }
+
+@media screen and (max-width: 800px) {
+    footer{
+        margin-top: 3em;
+        padding-top: 1em;
+    }
+   .m-head {
+        padding-top: 1em;
+    }
+    .btn{
+        position: relative;
+        margin-top: 2.5em;
+    }
+    .dev-info{
+        position: relative;
+        margin-top: 4.5em;
+    }
+  }
+  
 
