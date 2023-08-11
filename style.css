@@ -280,4 +280,21 @@ footer{
   }
   
   
-
+  @media screen and (max-width: 800px) {
+    footer{
+        margin-top: 3em;
+        padding-top: 1em;
+    }
+   .m-head {
+        padding-top: 1em;
+    }
+    .btn{
+        position: relative;
+        margin-top: 2.5em;
+    }
+    .dev-info{
+        position: relative;
+        margin-top: 4.5em;
+    }
+}
+  
